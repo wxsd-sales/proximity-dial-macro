@@ -24,7 +24,7 @@ The target number can be any destination including a member of staff, a meeting 
 
 ### Prerequisites & Dependencies: 
 
-- RoomOS/CE 10.x or above Webex Desk or Board Device
+- RoomOS 11.x or above Webex Desk or Board Device
 - Web admin access to the device to upload the macro
 - Network connectivity for your Webex Device to open the WebView content you want to display
 
@@ -36,7 +36,7 @@ The target number can be any destination including a member of staff, a meeting 
 
 #### Kiosk Web App Example:
 
-In the case of a Kiosk use case, you will need to set the Kiosk Web App URL and enable Kiosk Mode on your devices. Here is an example Kiosk Web App with a countdown animation to get started:
+In the case of a Kiosk use case, you will need to set the Kiosk Web App URL and enable Kiosk Mode on your device. Here is an example Kiosk Web App with a countdown animation to get started:
 ```
 https://wxsd-sales.github.io/kiosk-demos/countdowndial
 ```
