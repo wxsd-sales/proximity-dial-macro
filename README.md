@@ -1,6 +1,8 @@
 # Proximity Dial Macro
 
-This is an example Webex Device macro which automatically dials a destination if a user stands in front of the device for a period of time.
+This is an example Webex Device macro which automatically dials a destination if a person stands in front of the device for a period of time.
+
+The macro comes in two variations for displaying the countdown timer when the person is detected.
 
 ### UI Extension Based Countdown:
 <img width="960" alt="Proximity Dial UI Extension" src="https://github.com/wxsd-sales/proximity-dial-macro/assets/21026209/47476c62-bbaf-4d10-9b0b-3c74bd3cb030">
@@ -9,12 +11,20 @@ This is an example Webex Device macro which automatically dials a destination if
 
 <img width="960" alt="Proximity Dial Web App" src="https://github.com/wxsd-sales/proximity-dial-macro/assets/21026209/5342c402-555c-4f1f-86da-991fc7a73045">
 
-## Setup
 
+## Overview
+
+Theses macros leverages the camera intelligence of Webex RoomOS devices to monitor the current people count and close proximity detection. The macro monitors these two xStatus while not in a call and if a person is detected, the macro will display a notification with a countdown timer or in the case where it is operating in Kiosk mode, the macro will signal to the Kiosk web app to begin a countdown animation. If the person walks away before the countdown has completed, the UI and timers will reset.
+
+Once the countdown timer has completed and if the person has hasn't moved away from the Webex Device, the macro will then dial a specified target destination.
+
+The target number can be any destination including a member of staff, a meeting bridge or even a call queue.
+
+## Setup
 
 ### Prerequisites & Dependencies: 
 
-- RoomOS/CE 10.x or above Webex Device
+- RoomOS/CE 10.x or above Webex Desk or Board Device
 - Web admin access to the device to upload the macro
 - Network connectivity for your Webex Device to open the WebView content you want to display
 
