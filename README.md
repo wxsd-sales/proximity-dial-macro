@@ -2,7 +2,15 @@
 
 This is an example Webex Device macro which automatically dials a destination if a user stands in front of the device for a period of time.
 
+### UI Extension Based Countdown:
+<img width="960" alt="Proximity Dial UI Extension" src="https://github.com/wxsd-sales/proximity-dial-macro/assets/21026209/47476c62-bbaf-4d10-9b0b-3c74bd3cb030">
+
+### Kiosk Web App Countdown:
+
+<img width="960" alt="Proximity Dial Web App" src="https://github.com/wxsd-sales/proximity-dial-macro/assets/21026209/5342c402-555c-4f1f-86da-991fc7a73045">
+
 ## Setup
+
 
 ### Prerequisites & Dependencies: 
 
