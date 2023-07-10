@@ -34,11 +34,18 @@ The target number can be any destination including a member of staff, a meeting 
 2. Configure the Macro by changing the initial values, there are comments explaining each one.
 3. Enable the Macro on the editor.
 
+#### Kiosk Web App Example:
+
+In the case of a Kiosk use case, you will need to set the Kiosk Web App URL and enable Kiosk Mode on your devices. Here is an example Kiosk Web App with a countdown animation to get started:
+```
+https://wxsd-sales.github.io/kiosk-demos/countdowndial
+```
+
 ## Validation
 
 Validated Hardware:
 
-* Desk Pro
+* Webex Desk Pro
 * Webex Board
 
 This macro should work on other Webex Devices with WebEngine support but has not been validated at this time.
