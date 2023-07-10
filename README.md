@@ -5,11 +5,13 @@ This is an example Webex Device macro which automatically dials a destination if
 The macro comes in two variations for displaying the countdown timer when the person is detected.
 
 ### UI Extension Based Countdown:
-<img width="960" alt="Proximity Dial UI Extension" src="https://github.com/wxsd-sales/proximity-dial-macro/assets/21026209/47476c62-bbaf-4d10-9b0b-3c74bd3cb030">
+
+<img width="960" alt="Proximity Dial UI Extension" src="https://github.com/wxsd-sales/proximity-dial-macro/assets/21026209/fd2b813c-b7fb-47a0-80e2-de0c671d14a9">
 
 ### Kiosk Web App Countdown:
 
-<img width="960" alt="Proximity Dial Web App" src="https://github.com/wxsd-sales/proximity-dial-macro/assets/21026209/5342c402-555c-4f1f-86da-991fc7a73045">
+
+<img width="960" alt="Proximity Dial Web App" src="https://github.com/wxsd-sales/proximity-dial-macro/assets/21026209/ecb31e94-2854-439d-8281-da24467e3e8e">
 
 
 ## Overview
